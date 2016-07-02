@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/morzzz007/postcss-color-extended-keywords",
   "dependencies": {
+    "coveralls": "^2.11.9",
+    "nyc": "^6.6.1",
     "postcss": "^5.0.21"
   },
   "devDependencies": {
@@ -26,12 +28,16 @@
     "eslint-config-postcss": "^2.0.2"
   },
   "scripts": {
-    "test": "ava && eslint *.js"
+    "test": "nyc ava && eslint *.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "eslintConfig": {
     "extends": "eslint-config-postcss/es5",
     "rules": {
-      "indent": ["error", 2]
+      "indent": [
+        "error",
+        2
+      ]
     }
   }
 }
