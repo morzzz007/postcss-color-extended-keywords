@@ -6,6 +6,8 @@
 [ci-img]:  https://travis-ci.org/morzzz007/postcss-color-extended-keywords.svg
 [ci]:      https://travis-ci.org/morzzz007/postcss-color-extended-keywords
 
+Supported keywords: [Basic color keywords](https://www.w3.org/TR/css3-color/#html4) and [Extended color keywords](https://www.w3.org/TR/css3-color/#svg-color)
+
 ```css
 .foo {
   color: red;
