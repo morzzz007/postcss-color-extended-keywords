@@ -1,4 +1,4 @@
-# PostCSS Color Extended Keywords [![Build Status][ci-img]][ci]
+# PostCSS Color Extended Keywords [![Build Status][ci-img]][ci] [![Coverage Status](https://coveralls.io/repos/github/morzzz007/postcss-color-extended-keywords/badge.svg?branch=master)](https://coveralls.io/github/morzzz007/postcss-color-extended-keywords?branch=master)
 
 [PostCSS] plugin to transform basic and extended css color keywords to HEX RGB.
 
