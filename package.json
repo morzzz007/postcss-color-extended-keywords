@@ -1,6 +1,6 @@
 {
   "name": "postcss-color-extended-keywords",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PostCSS plugin to transform basic and extended css color keywords to HEX RGB",
   "keywords": [
     "postcss",
@@ -18,14 +18,14 @@
   },
   "homepage": "https://github.com/morzzz007/postcss-color-extended-keywords",
   "dependencies": {
-    "coveralls": "^2.11.9",
-    "nyc": "^6.6.1",
     "postcss": "^5.0.21"
   },
   "devDependencies": {
     "ava": "^0.15.0",
     "eslint": "^2.10.0",
-    "eslint-config-postcss": "^2.0.2"
+    "eslint-config-postcss": "^2.0.2",
+    "coveralls": "^2.11.9",
+    "nyc": "^6.6.1"
   },
   "scripts": {
     "test": "nyc ava && eslint *.js",
