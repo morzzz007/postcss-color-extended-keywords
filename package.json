@@ -21,11 +21,11 @@
     "postcss": "^5.0.21"
   },
   "devDependencies": {
-    "ava": "^0.15.0",
-    "eslint": "^2.10.0",
-    "eslint-config-postcss": "^2.0.2",
-    "coveralls": "^2.11.9",
-    "nyc": "^6.6.1"
+    "ava": "0.16.0",
+    "eslint": "3.3.0",
+    "eslint-config-postcss": "2.0.2",
+    "coveralls": "2.11.12",
+    "nyc": "7.1.0"
   },
   "scripts": {
     "test": "nyc ava && eslint *.js",

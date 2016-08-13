@@ -20,9 +20,7 @@ const supportedColors = new RegExp('\\b(' +
   Object.getOwnPropertyNames(colors).join('|') +
 ')\\b', 'gi');
 
-module.exports = postcss.plugin('postcss-color-extended-keywords', opts => {
-  opts = opts || {};
-
+module.exports = postcss.plugin('postcss-color-extended-keywords', () => {
   return css => {
     return new Promise(resolve => {
       css.walkDecls(supportedDeclarations, decl => {
