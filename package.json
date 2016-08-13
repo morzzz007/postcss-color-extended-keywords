@@ -1,6 +1,6 @@
 {
   "name": "postcss-color-extended-keywords",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "PostCSS plugin to transform basic and extended css color keywords to HEX RGB",
   "keywords": [
     "postcss",
